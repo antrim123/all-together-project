@@ -1,0 +1,40 @@
+/** navigation bar **/
+
+.nav{
+    background-color: cyan;
+    border: solid;
+}
+
+/** page 1 - vertical columns **/
+
+.column{
+    background-color: red;
+    width: 30%;
+    float: left;
+    margin: auto;
+}
+
+/** page 2 - form **/
+
+textarea {
+    width: 100%;
+    resize: none;
+  }
+
+textarea:focus, input:focus {
+    border: 1px solid blue;
+}
+
+.wrapper-main{
+    width: 20%;
+    margin: auto;
+    background-color: pink;
+}
+
+/** page 4 **/
+
+.image-wrapper1, .image-wrapper2{
+    display: flex;
+    background-color: cyan;
+    justify-content: space-around;
+}
