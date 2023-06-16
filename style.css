@@ -8,8 +8,8 @@
 /** page 1 - vertical columns **/
 
 .column{
-    background-color: red;
-    width: 30%;
+    /* background-color: pink; */
+    width: 50%;
     float: left;
     margin: auto;
 }
@@ -28,13 +28,13 @@ textarea:focus, input:focus {
 .wrapper-main{
     width: 20%;
     margin: auto;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 /** page 4 **/
 
 .image-wrapper1, .image-wrapper2{
     display: flex;
-    background-color: cyan;
+    /* background-color: pink; */
     justify-content: space-around;
 }
